@@ -2,15 +2,77 @@
     color:black
 }
 
+body{
+    background-color: #ced3d6;
+}
+
+header{
+    background-color: #e6e6e6;
+    color: black;
+    width: 100%;
+}
+
+.header-title{
+    color: black;
+    font-size: 30pt;
+}
+
 p{
     color:black
 }
 
 video{
-    resize:both
+    resize:both;
 }
 
-/* 
-h1{
-    font-size: 14px
-} */
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.left-column {
+    margin-left: 1%;
+    width: 67%;
+    background-color: whitesmoke;
+}
+
+.right-column {
+    width: 31%;
+    margin-left: 1%;
+    background-color: whitesmoke;
+}
+
+
+.production {
+    background-color: white;
+    font-size: 10pt;
+    box-shadow: 2px 2px 4px;
+}
+
+.production-title{
+    margin-top: 2%;
+    background-color: steelblue;
+    color: white;
+    font-size: 15pt;
+}
+
+.production-explain{
+    color: black;
+}
+
+.sidebar-title{
+    margin-top: 5%;
+    background-color: gray;
+    color: white;
+}
+
+.sidebar-list{
+    color: black;
+}
+
+.title-url{
+    color: yellowgreen;
+}
